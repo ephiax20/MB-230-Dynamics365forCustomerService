@@ -16,101 +16,108 @@ In this exercise, you will navigate to the Dynamics 365 Customer Service Applica
 
 ### Task 1 – Navigate to Customer Service Hub app
 
-1.  Navigate to Access <https://admin.powerplatform.microsoft.com/environments>.
+1.  In a new brwoser tab, enter `aka.ms/ppac`
 
-2.  Select the Dynamics 365 environment.
+1.  Select **Environments**.
 
-3.  Click **Open**.
+2.  Select the **Customer Service Trial** environment.
 
-4.  You should be in the **Customer Service Hub** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service Hub** app
+3.  Select **Open**.
+
+4.  The **Customer Service Hub** app should open. If you are in a different app, select the name of the app in the top left of the application next to **Dynamics 365** and from the list of published apps, select the **Customer Service Hub** app.
 
 5.  You should now be showing the **Dashboard** view.
+
 
 ## Exercise 2 – Create case
 
 In this exercise, you will create an Account, a Contact, and a Case record. You will also add a Phone Call activity to the case.
 
+
 ### Task 1 – Create Account
 
-1.  Click on **Accounts** in the **Customers** section of the sitemap.
+1.  Select **Accounts** in the **Customers** section of the sitemap.
 
-2.  Click **+ New** located on the command bar.
+2.  Select **+ New**, located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Relecloud** for **Account Name**.
+3.  Enter `Relecloud` for **Account Name**.
 
-4.  Click **Save & Close**.
+4.  Select **Save & Close**.
+
 
 ### Task 2 – Create Contacts
 
-1.  Click on **Contacts** in the **Customers** section of the sitemap.
+1.  Select **Contacts** in the **Customers** section of the sitemap.
 
-2.  Click **+ New** located on the command bar.
+2.  Select **+ New** located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Jane** for **First Name**.
+3.  Enter `Jane` for **First Name**.
 
-4.  Enter **Doe** for **Last Name**.
+4.  Enter `Doe` for **Last Name**.
 
-5.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
+5.  Enter `Relecloud` in the **Account Name** field, select the lookup icon and choose the account created in Task 1.
 
-6.  Click **Save & Close**.
+6.  Select **Save & Close**.
 
-7.  Click **+ New** located on the command bar.
+7.  Select **+ New** located on the command bar.
 
-8.  Enter **[your prefix ex. mollyc]** + **Jon** for **First Name**.
+8.  Enter `Jon` for **First Name**.
 
-9.  Enter **Doe** for **Last Name**.
+9.  Enter `Doe` for **Last Name**.
 
-10.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
+10.  Enter `Relecloud` in the **Account Name** field, select the lookup icon and select the account you created in Task 1.
 
-11.  Click **Save & Close**.
+11.  Select **Save & Close**.
+
 
 ### Task 3 – Create Case
 
-1.  Click on **Cases** in the **Service** section of the sitemap.
+1.  Select **Cases** in the **Service** section of the sitemap.
 
-2.  Click **+ New Case** located on the command bar.
+2.  Select **+ New Case** located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Defective Screen** for **Case Title**.
+3.  Enter `Defective screen` for **Case Title**.
 
-4.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
+4.  Select the **Subject** field and expand **Service** and select **General**. 
 
-5.  Enter *your prefix ex. mollyc* in the **Customer** field, click on the lookup icon and select the account you created in Task 1.
+5.  Enter `Relecloud` in the **Customer** field, select the lookup icon and select the account created in Task 1.
 
 6.  Select **Phone** from the **Origin** drop-down field.
 
-7.  Enter *JBO* in the **Product** field, click on the lookup icon and select the **JBO Top D. Hifi** product.
+7.  Enter `cafe` in the **Product** field, select the lookup icon and select the **Café A-100 Automatic** product.
 
-8.  Enter **Laptop display is too bright** in the **Description** field.
+8.  Enter `Machine screen does not work` in the **Description** field.
 
-9.  Click on the **Identify** stage in the business process flow.
+9.  Select the **Identify** stage in the business process flow.
 
-10. Enter *your prefix ex. mollyc* in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
+10. Enter `Jane` in the **Find Contact** field, select the lookup icon and select the **Jane Doe** contact created in Task 2.
 
 11. Select the **Details** tab.
 
-12. Select **Problem** from the **Type** drop-down field.
+12. Select **Problem** from the **Type** drop-down.
 
-13. Click **Save**.
+13. Select **Save**.
 
-14. Click on the **Identify** stage in the business process flow, and select **Next Stage**.
+14. Select the **Identify** stage in the business process flow, and select **Next Stage**.
 
-15. Select the **Summary Tab**. In the Timeline, click on **+**, and select **Phone Call**.
+15. Select the **Summary Tab**. In the **Timeline**, select **+**, and select **Phone Call**.
 
-16. Enter **[your prefix ex. mollyc]** + **further details** for **Subject**.
+16. Enter `Further details` for **Subject**.
 
-17. Select **Outgoing** from the **Direction** drop-down field.
+17. Verify **Outgoing** is selected for **Direction**.
 
 18. Ensure that your user record is set for **Call From**.
 
 19. Ensure that the Jane Doe contact is set for **Call To**.
 
-20. Select **15 minutes** from the **Duration** drop-down field.
+20. Change **Duration** to **15 minutes**.
 
 21. Select tomorrow's date and 9:00AM for **Due**.
 
 22. Select **High** from the **Priority** drop-down field.
 
-23. Select **Save & Close**
+23. Select **Save and Close**
+
 
 ## Exercise 3 – Create case from an activity
 
@@ -118,40 +125,42 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 ### Task 1 – Create Phone Call activity
 
-1.  Click on **Contacts** in the **Customers** section of the sitemap.
+1.  Select **Contacts** in the **Customers** section of the sitemap.
 
-2.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Jon Doe** contact you created in Task 2.
+2.  Enter `Jon` in the **Filter by keyword** field, select the **Jon Doe** contact created in Task 2.
 
-3.  In the Timeline, click on **+**, and select **Phone Call**.
+3.  In the **Timeline** select **+**, and select **Phone Call**.
 
-4.  Enter **[your prefix ex. mollyc]** + **Service required** for **Subject**.
+4.  Enter `Service required` for **Subject**.
 
-5.  Select **Incoming** from the **Type** drop-down field.
+5.  Change the **Direction** field to **Incoming**.
 
-6.  Ensure that the Jon Doe contact is set for **Call From**.
+6.  Ensure that the **Jon Doe** contact is set for **Call From**.
 
 7.  Ensure that your user record is set for **Call To**.
 
-8.  In the Description field, enter **Annual service needs to be scheduled for Jon**
+8.  In the **Description** field, enter `Annual service needs to be scheduled for Jon`
 
-9.  Click into the **Duration field** and type **10 minutes**.
+9.  Enter `10 minutes` for **Duration**.
 
 10. Select today's date for **Due**.
 
 11. Select **Save and Close**
 
+
 ### Task 2 – Covert Phone Call activity
 
-1.  In the Timeline, click on the **Open Record** icon for the phone call you just created.
+1.  In the Timeline, select the **Open Record** icon for the **Phone Call** activity created in Task 1.
 
-2.  Click **Convert To** located on the command bar [Note:you may need to click on the ellipsis (...)] and select **To Case**.
+2.  Select **Convert To** located on the command bar [Note: You may need to select the ⋮ **More commands for Case** menu] and select **To Case**.
 
-3.  Click on **Customer** field in the **Convert to Case** window.
+3.  Select the **Customer** field in the **Convert to Case** window.
 
-4.  Enter *your prefix ex. mollyc* and select the **Jon Doe** contact you created in Task 2.
+4.  Verify **Jon Doe** is selected as the **Customer**.
 
-5.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
+5.  Select the **Subject** field and select **General**.
 
-6.  Click **Convert**.
+6.  Select **Convert**.
 
-7.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
+7.  Review the case that was created. Verify that the case is linked to the contact and the **Origin** is already set to **Phone**.
+
